@@ -1,0 +1,6 @@
+#contenedor {
+    width: 50%;
+    max-width: 900px;
+    background-color: rgb(206, 166, 243);
+    margin: auto;
+}
