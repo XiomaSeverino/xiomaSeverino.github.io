@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        function limpia() {
+          alert("carga el contenido nuevo");
+          
+        }
+      </script>
+    <title>FORMULARIO</title>
+</head>
+<body >
+ 
+    <form method=post name="Form1">
+    NOMBRE:<input type="text" name="name_control" maxlength="100" ><br /><br />
+    
+    CORREO ELECTRONICO:<input type="email" name="email_control" maxlength="100" ><br /><br />
+   
+    URL:<input type="url" name="url" maxlength="100" ><br /><br />
+
+    FECHA:<input type="date" name="date" maxlength="100" ><br /><br />
+
+    TIEMPO:<input type="time" name="time" maxlength="100" ><br /><br />
+
+    FECHA Y HORA:<input type="datetime" name="datetime" maxlength="100" ><br /><br />
+
+    MES:<input type="month" name="month" maxlength="100" ><br /><br />
+
+    SEMANA:<input type="week" name="week" maxlength="100" ><br /><br />
+
+    NUMERO(min-10,max-10):<input type="number" name="number" min="-10" max="10" value="0" maxlength="100" ><br /><br />
+
+    TELEFONO:<input type="tel" name="tel"  maxlength="100" ><br /><br />
+    
+    TERMINO DE BUSQUEDA:<input type="search" name="search" maxlength="100" ><br /><br />
+
+    COLOR FAVORITO:<input type="color" name="color" maxlength="100" ><br /><br />
+
+    <input type="submit" name="enviar" value="ENVIAR"
+      onclick="limpia();" on>
+  </form>
+</body>
+</html>
